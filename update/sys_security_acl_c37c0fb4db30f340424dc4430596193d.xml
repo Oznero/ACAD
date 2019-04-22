@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>x_kapla_acad_acad.assignment_group</name>
+        <operation display_value="list_edit">54f535270a0a0b8c007c67009ab2bdc0</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>croomk</sys_created_by>
+        <sys_created_on>2019-04-11 20:23:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>c37c0fb4db30f340424dc4430596193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_kapla_acad_acad.assignment_group</sys_name>
+        <sys_package display_value="Academic Operations" source="x_kapla_acad">0f616e0ddb14f7007bb7d602ca9619ac</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Academic Operations">0f616e0ddb14f7007bb7d602ca9619ac</sys_scope>
+        <sys_update_name>sys_security_acl_c37c0fb4db30f340424dc4430596193d</sys_update_name>
+        <sys_updated_by>croomk</sys_updated_by>
+        <sys_updated_on>2019-04-11 20:23:41</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

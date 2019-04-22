@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="task" table="x_kapla_acad_acad">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="additional_comments" table="x_kapla_acad_acad">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>email_client=true</attributes>
-        <audit>true</audit>
+        <attributes/>
+        <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
 	// Add your code here
@@ -14,7 +14,7 @@
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label/>
+        <column_label>Additional comments</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -27,14 +27,14 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element/>
+        <element>additional_comments</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Collection">collection</internal_type>
+        <internal_type display_value="">journal_input</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>4000</max_length>
         <name>x_kapla_acad_acad</name>
         <next_element/>
         <primary>false</primary>
@@ -47,23 +47,23 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>23</sizeclass>
+        <sizeclass/>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
-        <sys_created_by>admin.robinsonse1</sys_created_by>
-        <sys_created_on>2019-03-18 15:24:46</sys_created_on>
+        <sys_created_by>croomk</sys_created_by>
+        <sys_created_on>2019-04-11 18:31:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>edf7de1ddb6033007bb7d602ca961948</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>x_kapla_acad_acad</sys_name>
+        <sys_id>3a8272f8db7cb340424dc443059619a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Additional comments</sys_name>
         <sys_package display_value="Academic Operations" source="x_kapla_acad">0f616e0ddb14f7007bb7d602ca9619ac</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Academic Operations">0f616e0ddb14f7007bb7d602ca9619ac</sys_scope>
-        <sys_update_name>sys_dictionary_x_kapla_acad_acad_null</sys_update_name>
+        <sys_update_name>sys_dictionary_x_kapla_acad_acad_additional_comments</sys_update_name>
         <sys_updated_by>croomk</sys_updated_by>
-        <sys_updated_on>2019-04-11 18:55:45</sys_updated_on>
+        <sys_updated_on>2019-04-11 18:31:04</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_label/>

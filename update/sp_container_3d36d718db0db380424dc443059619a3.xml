@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Academic Schedule Request - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="academic_schedule_request">e3c5d754db0db380424dc4430596198b</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>croomk</sys_created_by>
+        <sys_created_on>2019-04-22 18:04:30</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3d36d718db0db380424dc443059619a3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Academic Schedule Request - Container 2</sys_name>
+        <sys_package display_value="Academic Operations" source="x_kapla_acad">0f616e0ddb14f7007bb7d602ca9619ac</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Academic Operations">0f616e0ddb14f7007bb7d602ca9619ac</sys_scope>
+        <sys_update_name>sp_container_3d36d718db0db380424dc443059619a3</sys_update_name>
+        <sys_updated_by>croomk</sys_updated_by>
+        <sys_updated_on>2019-04-22 18:21:02</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>
