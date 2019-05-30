@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set form values</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   
+	g_form.removeOption('state', 4);
+	g_form.removeOption('state', 6);
+	g_form.removeOption('state', 7);
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>croomk</sys_created_by>
+        <sys_created_on>2019-05-30 13:43:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a52686e0db35b700424dc44305961994</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Set form values</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Academic Operations" source="x_kapla_acad">0f616e0ddb14f7007bb7d602ca9619ac</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Academic Operations">0f616e0ddb14f7007bb7d602ca9619ac</sys_scope>
+        <sys_update_name>sys_script_client_a52686e0db35b700424dc44305961994</sys_update_name>
+        <sys_updated_by>croomk</sys_updated_by>
+        <sys_updated_on>2019-05-30 13:47:45</sys_updated_on>
+        <table>x_kapla_acad_acad</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

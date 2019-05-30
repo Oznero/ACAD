@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="email_client=true" audit="true" extends="task" label="ACAD" max_length="40" name="x_kapla_acad_acad" sizeclass="23" type="collection">
+    <element attributes="email_client=true" audit="true" extends="task" label="ACAD" max_length="40" name="x_kapla_acad_acad" sizeclass="57" type="collection">
         <element label="Work notes" max_length="4000" name="acad_work_notes" type="journal_input"/>
-        <element label="Additional comments" max_length="4000" name="additional_comments" type="journal_input"/>
+        <element label="Additional comments (Visible to user)" max_length="4000" name="additional_comments" type="journal_input"/>
     </element>
 </database>

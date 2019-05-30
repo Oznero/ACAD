@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>acad_variables</name>
+        <new_lines_to_html>true</new_lines_to_html>
+        <script><![CDATA[var gr = new GlideRecord('x_kapla_acad_acad');
+gr.addQuery('number', current.number);
+gr.query();
+if (gr.next())
+	{
+	gs.info(gr.sys_id);
+	var desc = '';
+	var m2m = new GlideRecord('question_answer');
+	m2m.addQuery('table_sys_id', gr.sys_id);
+	m2m.addEncodedQuery('valueISNOTEMPTY');
+	m2m.orderBy('order');
+	m2m.query();
+	
+	while (m2m.next())
+		{
+		
+		if(m2m.question.type.getDisplayValue() == 'Reference'){
+			
+			
+			var rf = new GlideRecord(m2m.question.reference);
+			rf.addQuery('sys_id', m2m.value);
+			rf.query();
+			if (rf.next())
+				{
+				var q = m2m.question.getDisplayValue();
+				var a = rf.name;
+				desc += "<span style='font-family: arial, helvetica, sans-serif; font-size: 12pt;'>" + q + ": ";
+				desc += a + "</span>\n";					
+			}
+		}
+		else
+			{
+			var q = m2m.question.getDisplayValue();
+			var a = m2m.value;
+			desc += "<span style='font-family: arial, helvetica, sans-serif; font-size: 12pt;'>" + q + ": ";
+            desc += a + "</span>\n";				
+		}
+		
+	}
+	template.print(desc);
+}]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin.robinsonse1</sys_created_by>
+        <sys_created_on>2019-05-21 18:40:18</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1474b4bddb2df700424dc443059619e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>acad_variables</sys_name>
+        <sys_package display_value="Academic Operations" source="x_kapla_acad">0f616e0ddb14f7007bb7d602ca9619ac</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Academic Operations">0f616e0ddb14f7007bb7d602ca9619ac</sys_scope>
+        <sys_update_name>sys_script_email_1474b4bddb2df700424dc443059619e6</sys_update_name>
+        <sys_updated_by>admin.robinsonse1</sys_updated_by>
+        <sys_updated_on>2019-05-21 18:40:18</sys_updated_on>
+    </sys_script_email>
+</record_update>

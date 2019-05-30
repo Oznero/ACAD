@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_kapla_acad_acad</collection>
+        <email_layout/>
+        <message/>
+        <message_html><![CDATA[<div style="color: #373737; font-family: SourceSansPro, 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 17px;">
+<table id="backgroundTable" style="font-size: 17px; line-height: 100%; color: #424e5b; background: #F9F9F9; width: 100%; margin: 0; padding: 0; border-collapse: collapse; mso-table-lspace: 0;" border="0" width="100%" cellpadding="0">
+<tbody>
+<tr>
+<td style="border-collapse: collapse; text-align: center;" valign="top"><img style="align: baseline;" title="" src="purdueglobal-stacked_RGB_blk-gld_notify.png" alt="" align="baseline" border="" hspace="" vspace="" /></td>
+</tr>
+</tbody>
+<tbody>
+<tr>
+<td style="border-collapse: collapse;" valign="top">
+<div class="full-width" style="max-width: 600px; margin: 0 auto;">
+<div class="card" style="background: #FFF; border-radius: 0.5rem; padding: 2rem; margin-bottom: 1rem;"><span style="font-size: 14pt; font-family: arial, helvetica, sans-serif;">Academic Schedule Request: ${number}</span></div>
+<div class="card" style="background: #FFF; border-radius: 0.5rem; padding: 2rem; margin-bottom: 1rem;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong><span style="color: #3d3683; background-color: #ffffff;">Comment added</span>:</strong></span><br /><br /><span style="color: #424e5b; font-family: arial, helvetica, sans-serif; font-size: 16px;">${mail_script:Academic_Additional_Comment}<br /></span></div>
+<div class="card" style="background: #FFF; border-radius: 0.5rem; padding: 2rem; margin-bottom: 1rem;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong><span style="color: #3d3683; background-color: #ffffff;">Details</span>:</strong></span><br /><br />
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">Opened by Name: ${opened_by.name}<br />Opened by Email: ${opened_by.email}<br />Opened: ${opened_at}</span></span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">State: ${state}<br /><br /><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;">${mail_script:acad_variables}<br /></span></span></span></div>
+</div>
+<div class="card" style="background: #FFF; border-radius: 0.5rem; padding: 2rem; margin-bottom: 1rem;"><span style="color: #424e5b; font-family: arial, helvetica, sans-serif; font-size: 16px;">Click here to view Request: ${URI_REF}<br /></span></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>&nbsp;</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>kaplan.request_acad_commented.template</name>
+        <sms_alternate/>
+        <subject/>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin.robinsonse1</sys_created_by>
+        <sys_created_on>2019-05-21 18:27:43</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>30717835db2df700424dc44305961929</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>kaplan.request_acad_commented.template</sys_name>
+        <sys_package display_value="Academic Operations" source="x_kapla_acad">0f616e0ddb14f7007bb7d602ca9619ac</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Academic Operations">0f616e0ddb14f7007bb7d602ca9619ac</sys_scope>
+        <sys_update_name>sysevent_email_template_30717835db2df700424dc44305961929</sys_update_name>
+        <sys_updated_by>admin.robinsonse1</sys_updated_by>
+        <sys_updated_on>2019-05-21 18:27:43</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

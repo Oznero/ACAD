@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>3</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">1ab8935cdb0db380424dc44305961962</sp_column>
+        <sp_widget display_value="HTML">8679ef89cb21120000f8d856634c9c4f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin.robinsonse1</sys_created_by>
+        <sys_created_on>2019-05-23 17:20:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3b557a1edbe1b7007bb7d602ca961975</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>How to Videos</sys_name>
+        <sys_package display_value="Academic Operations" source="x_kapla_acad">0f616e0ddb14f7007bb7d602ca9619ac</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Academic Operations">0f616e0ddb14f7007bb7d602ca9619ac</sys_scope>
+        <sys_update_name>sp_instance_3b557a1edbe1b7007bb7d602ca961975</sys_update_name>
+        <sys_updated_by>admin.robinsonse1</sys_updated_by>
+        <sys_updated_on>2019-05-24 19:53:19</sys_updated_on>
+        <title>How to Videos</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"html": {
+		"value": "<h3><img src=\"video.png\" width=\"60\" height=\"60\" align=\"left\" /></h3>\n<h4><strong>How to videos:</strong></h4>\n<h5>Helpful videos on submitting and tracking Schedule requests.&nbsp;</h5>\n<ul>\n<li><a href=\"https://drive.google.com/open?id=1aoWDtiWSMW_uRmbf8B6SEYRs3GEjk_Oe\" target=\"_blank\">Admin Only - Schedule Task</a></li>\n<li><a href=\"https://drive.google.com/open?id=1zHi9Qm3wtbyhQqAvzl9IC0l-mASbtPHG\" target=\"_blank\">Admin Only - Secondary Instructor (TA) Access<br /></a></li>\n<li><a href=\"https://drive.google.com/open?id=1W6tajMxJXBRjgcKinBwGHgI-Dc2z9peE\" target=\"_blank\">Reschedule Request</a></li>\n</ul>\n<p>&nbsp;</p>",
+		"displayValue": "<h3><img src=\"video.png\" width=\"60\" height=\"60\" align=\"left\" /></h3>\n<h4><strong>How to videos:</strong></h4>\n<h5>Helpful videos on submitting and tracking Schedule requests.&nbsp;</h5>\n<ul>\n<li><a href=\"https://drive.google.com/open?id=1aoWDtiWSMW_uRmbf8B6SEYRs3GEjk_Oe\" target=\"_blank\">Admin Only - Schedule Task</a></li>\n<li><a href=\"https://drive.google.com/open?id=1zHi9Qm3wtbyhQqAvzl9IC0l-mASbtPHG\" target=\"_blank\">Admin Only - Secondary Instructor (TA) Access<br /></a></li>\n<li><a href=\"https://drive.google.com/open?id=1W6tajMxJXBRjgcKinBwGHgI-Dc2z9peE\" target=\"_blank\">Reschedule Request</a></li>\n</ul>\n<p>&nbsp;</p>"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+</record_update>
