@@ -47,23 +47,23 @@
         <reference_qual/>
         <reference_qual_condition/>
         <reference_type/>
-        <sizeclass>57</sizeclass>
+        <sizeclass>14</sizeclass>
         <spell_check>false</spell_check>
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin.robinsonse1</sys_created_by>
         <sys_created_on>2019-03-18 15:24:46</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>edf7de1ddb6033007bb7d602ca961948</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>faf2e841133d7f4042f9bf304244b0b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_kapla_acad_acad</sys_name>
         <sys_package display_value="Academic Operations" source="x_kapla_acad">0f616e0ddb14f7007bb7d602ca9619ac</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Academic Operations">0f616e0ddb14f7007bb7d602ca9619ac</sys_scope>
-        <sys_update_name>sys_dictionary_x_kapla_acad_acad_null</sys_update_name>
-        <sys_updated_by>croomk</sys_updated_by>
-        <sys_updated_on>2019-04-11 18:55:45</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_kapla_acad_acad_NULL</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-05-31 19:43:59</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_label/>

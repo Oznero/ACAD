@@ -54,7 +54,7 @@
         <sys_created_by>croomk</sys_created_by>
         <sys_created_on>2019-04-11 18:31:04</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>ccb2b6f8db7cb340424dc4430596193e</sys_id>
+        <sys_id>c7f22c41133d7f4042f9bf304244b00f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Work notes</sys_name>
         <sys_package display_value="Academic Operations" source="x_kapla_acad">0f616e0ddb14f7007bb7d602ca9619ac</sys_package>
@@ -62,8 +62,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Academic Operations">0f616e0ddb14f7007bb7d602ca9619ac</sys_scope>
         <sys_update_name>sys_dictionary_x_kapla_acad_acad_acad_work_notes</sys_update_name>
-        <sys_updated_by>croomk</sys_updated_by>
-        <sys_updated_on>2019-04-11 18:31:04</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2019-05-31 19:43:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <u_label/>
