@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app">
     <sys_app action="INSERT_OR_UPDATE">
         <active>true</active>
+        <can_edit_in_studio>false</can_edit_in_studio>
         <enforce_license>log</enforce_license>
         <js_level>helsinki_es5</js_level>
         <licensable>true</licensable>
@@ -23,14 +24,14 @@
         <sys_created_by>croomk</sys_created_by>
         <sys_created_on>2019-05-31 19:43:45</sys_created_on>
         <sys_id>0f616e0ddb14f7007bb7d602ca9619ac</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin.robinsonse1</sys_updated_by>
-        <sys_updated_on>2019-06-06 21:17:25</sys_updated_on>
+        <sys_updated_on>2019-08-12 18:50:19</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role/>
         <vendor/>
         <vendor_prefix/>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
     </sys_app>
 </record_update>
